@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+#title{
+    color:goldenrod;
+}
+body{
+    background-color: rgb(1, 1, 7);
+    text-align: center;
+}
+.container{
+
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    font-size: 8vmin;
+    height: 18vmin;
+    width: 18vmin;
+    background-color: white;
+    color: Black;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem black;
+}
+.box:hover{
+    color: white;
+    background-color: rgb(198, 16, 55);
+}
+#msg{
+    color:goldenrod;
+    font-size: 8vmin;
+}
+.msg-can{
+    height: 30vmin;
+}
+#hide{
+    display: none;
+}
+#reset{
+
+    /* padding: 1;
+    font-size: 1.5rem;
+    border: 1.5rem;
+    border: none;
+    color: white;
+    background-color: black; */
+    
+        background-color: #3843c3; /* Green background */
+        border: none; /* Remove border */
+        color: white; /* White text */
+        padding: 15px 32px; /* Add some padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Display as inline-block */
+        font-size: 16px; /* Set the font size */
+        margin: 4px 2px; /* Add some margin */
+        cursor: pointer; /* Change cursor on hover */
+        border-radius: 4px; /* Add rounded corners */
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add a shadow */
+        transition: all 0.3s ease; /* Add a transition effect */
+      }
+      
+      #reset:hover {
+        background-color: #45a049; /* Slightly darker green on hover */
+        transform: translateY(-2px); /* Move the button up slightly on hover */
+        box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2), 0 8px 24px 0 rgba(0,0,0,0.19); /* Increase the shadow on hover */
+      }
+#new-btn{
+    background-color: #1dda72; /* Green background */
+        border: none; /* Remove border */
+        color: white; /* White text */
+        padding: 15px 32px; /* Add some padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Display as inline-block */
+        font-size: 16px; /* Set the font size */
+        margin: 4px 2px; /* Add some margin */
+        cursor: pointer; /* Change cursor on hover */
+        border-radius: 4px; /* Add rounded corners */
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add a shadow */
+        transition: all 0.3s ease; /* Add a transition effect */
+      }
+      
+      #new-btn:hover {
+        background-color: #f08810; /* Slightly darker green on hover */
+        transform: translateY(-2px); /* Move the button up slightly on hover */
+        box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2), 0 8px 24px 0 rgba(0,0,0,0.19); /* Increase the shadow on hover */
+      }
